@@ -25,10 +25,6 @@ ul {
     flex-direction: column;
 }
 
- .two, .three, .four {
-    border: 2px solid black;
-    height: 300px;
-}
 
 .footer {
     display: flex;
@@ -73,8 +69,46 @@ button:hover {
 
 .two-one {
     display: flex;
-    border: 2px solid grey;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+    margin: 50px;
 }
 
+.one-one h1 {
+    font-size: 48px;
+}
+
+.body .three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    margin-left: 505px;
+    font-weight: bold;
+}
+
+.four {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #3882F6;
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    padding: 50px;
+}
+
+.four .four-two{
+    flex-shrink: 0;
+}
